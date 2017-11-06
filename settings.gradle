@@ -1,0 +1,6 @@
+rootProject.name = 'space-based-architecture-example'
+
+include 'pu-counter'
+include 'pu-http'
+include 'vm-data'
+include 'vm-messaging'
