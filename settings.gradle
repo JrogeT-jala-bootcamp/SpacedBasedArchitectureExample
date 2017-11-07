@@ -1,6 +1,6 @@
 rootProject.name = 'space-based-architecture-example'
 
+include 'angular-ui'
 include 'pu-counter'
-include 'pu-http'
 include 'vm-data'
 include 'vm-messaging'
