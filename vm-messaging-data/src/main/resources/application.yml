@@ -2,5 +2,13 @@
 ## SPRING ##############################################################################################################
 ########################################################################################################################
 
-server.port=10003
-logging.level.com.rubenjg=DEBUG
+spring.application.name: Messaging
+server.port: 10001
+
+eureka.client.serviceUrl.defaultZone: http://localhost:10000/eureka
+eureka.client.register-with-eureka: true
+eureka.client.fetch-registry: true
+
+logging.level.com.rubenjg: DEBUG
+logging.level.com.netflix.eureka: DEBUG
+logging.level.com.netflix.discovery: DEBUG

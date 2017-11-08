@@ -2,5 +2,13 @@
 ## SPRING ##############################################################################################################
 ########################################################################################################################
 
-server.port=10001
-logging.level.com.rubenjg=DEBUG
+server.port: 10000
+
+eureka.client.register-with-eureka: false
+eureka.client.fetch-registry: false
+
+logging.level.com.rubenjg: DEBUG
+logging.level.com.netflix.eureka: DEBUG
+logging.level.com.netflix.discovery: DEBUG
+
+

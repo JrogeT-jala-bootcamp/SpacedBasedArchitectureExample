@@ -2,5 +2,5 @@ rootProject.name = 'space-based-architecture-example'
 
 include 'angular-ui'
 include 'pu-counter'
-include 'vm-data'
-include 'vm-messaging'
+include 'eureka'
+include 'vm-messaging-data'
